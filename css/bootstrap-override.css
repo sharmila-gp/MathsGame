@@ -1,0 +1,46 @@
+
+/*---Header-section starts---*/
+.navbar-brand {
+	 color:var(--darkgreen);
+	 font-weight:700;
+	 margin-right: 17rem;
+	 font-size:2rem;
+}
+
+a.nav-link{
+	color:var(--black);
+	font-family:"Open Sans", arial, serief;
+	font-weight:600;
+}
+.navbar-expand-xl .navbar-nav .nav-link{
+	padding-right:1rem;
+	padding-left:1rem;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link
+{
+	color:var(--darkgreen);
+}
+
+.btn{
+	border-radius:2rem;
+	color:var(--white);
+	padding-right:1rem;
+	padding-left:1rem;
+}
+
+.btn:hover {
+	background-color:var(--green);
+	color:var(--white);
+}
+/*---Header-section Ends---*/
+
+
+/*----Banner section starts----*/
+.btn-outline-info{
+	border-color:var(--white);
+	color:var(--white);
+	border-radius:2rem;
+}
+
+/*-----Banner section ends----*/
+

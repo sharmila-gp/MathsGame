@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="description" content="Maths game">
+        <meta name="keywords" content="Maths game, maths game for kids, mind game, mind game for kids, mind sharp,maths game for age 6-12, maths game for 6-12">
+        <meta name ="author" content="Sharmila p">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+
+
+
+        <link rel=" stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel=" stylesheet" type="text/css" href="css/bootstrap-override.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/Responsive.css">
+        <title>MathGame</title>
+    </head>
+    <body >
+        <!---------calculator page----->
+        <section>
+            <div class="container-md ">
+                <div class="d-flex flex-row  justify-content-between color-purple fontSize">
+                    <div class="d-flex flex-row m-2 "><div class=" p-2">score:</div><div id="score" class="p-2" ></div></div>
+                   <div class="d-flex flex-row m-2 "> <div class=" p-2">Timer:</div><div id="timer" class="p-2"></div></div>
+                </div>
+                <div id="question">   
+                </div>
+                
+                    <input type="text" required class="input-number border-g mx-1" id="inputnumber">
+                
+                <div class="d-flex flex-row p-3">
+                    <div class="d-flex flex-wrap ">
+                        <p class="border-g calc-number" id="1" onclick="calculateResult('1')">1</p>
+                        <p class="border-g calc-number" id="2" onclick="calculateResult('2')">2</p>
+                        <p class="border-g calc-number" id="3" onclick="calculateResult('3')">3</p>
+                        <p class="border-g calc-number" id="4" onclick="calculateResult('4')">4</p>
+                        <p class="border-g calc-number" id="5" onclick="calculateResult('5')">5</p>
+                        <p class="border-g calc-number" id="6" onclick="calculateResult('6')">6</p>
+                        <p class="border-g calc-number" id="7" onclick="calculateResult('7')">7</p>
+                        <p class="border-g calc-number" id="8" onclick="calculateResult('8')">8</p>
+                        <p class="border-g calc-number" id="9" onclick="calculateResult('9')">9</p>
+                    </div>
+                    <div>
+                        <p class="border-g calc-number" id="0" onclick="calculateResult('0')">0</p>
+                        <div class="border-g calc-number2" id="clear" onclick="clearDiv()">
+                            <div class="lineHeight">C</div>
+                            <div class="lineHeight">L</div>
+                            <div class="lineHeight">E</div>
+                            <div class="lineHeight">A</div>
+                            <div class="lineHeight">R</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+     <script src="main.js">
+            
+        </script>  
+    </body>
+</html>

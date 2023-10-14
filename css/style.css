@@ -1,0 +1,112 @@
+
+/*-----first page----*/
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.image{
+    width:150px;
+    height:150px;
+}
+.button-Purple{
+    color:#e0c70a;
+    background-color: #5b1d93;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding:10px 30px;
+}
+.btn-div{
+    width:150px;
+}
+.color-purple{
+    color: #5b1d93;
+}
+.font-great{
+    font-family: "Great Vibes",Arial, Helvetica, sans-serif ;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+/*-----second page----*/
+
+
+.fontSize{
+    font-size: 1rem;
+}
+.borderUp{
+    border-top:2px solid #5b1d93;
+}
+text-decoration{
+    text-decoration: none;
+}
+span{
+    display: inline-block;
+}
+/*-----Customizable page----*/
+
+
+.borderUpDown{
+border-top:2px solid #5b1d93;
+border-bottom: 2px solid #5b1d93;
+}
+.accent{
+    accent-color: #5b1d93;;
+}
+/*-----calculator page----
+.disp{
+    border: 1px solid #5b1d93;
+} */
+#score, #timer{
+    width:50px;
+}
+#question{
+    height: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #5b1d93;
+    text-align: center;
+}
+.border-g{
+    border:1px solid hsl(272, 30%, 47%)
+}
+.input-number{
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #5b1d93;
+    background-color: rgb(255, 255, 255);
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.375rem;
+    text-align: center;
+}
+.calc-number{
+    width:65px;
+    margin:0.1rem;
+    padding:1rem;
+    font-size: 2rem;
+    color:#5b1d93;
+    font-weight: bold;
+}
+.margin-clear{
+    margin:0.1rem; 
+}
+.gapClass{
+	width:50px;
+}
+.calc-number2{
+    margin:0.1rem;
+    padding:1rem;
+    font-size: 1.5rem;
+    color:#5b1d93;
+    font-weight: bold;
+}
+.margin-down{
+    margin-bottom: 15px;
+    }
+.lineHeight{
+    line-height: 2rem;
+}
+
+
