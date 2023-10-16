@@ -71,7 +71,7 @@ function exitPage() {
   localStorage.setItem("result", res);
   localStorage.setItem("sco", score.innerHTML);
   localStorage.setItem("count",count);
-  window.location.href = "/result.html";
+  window.location.href = "MathsGame/result.html";
 }
 
 function clearPage() {
